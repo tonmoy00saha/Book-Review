@@ -1,0 +1,19 @@
+div li .active{
+    color: #23BE0A;
+ 
+    border: 1px solid #23BE0A;
+    padding: 8px 20px;
+ 
+    font-weight: 600;
+    border-radius: 8px;
+
+ 
+}
+.menu-container li{
+    padding: 8px 8px;
+}
+.menu-container li:hover{
+    
+    background-color: rgb(228 228 231);
+    border-radius: 8px;
+}
