@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const Tag = ({tag}) => {
     return (
@@ -7,5 +7,7 @@ const Tag = ({tag}) => {
         </div>
     );
 };
-
+Tag.prototype={
+    tag: PropTypes.array,
+}
 export default Tag;
