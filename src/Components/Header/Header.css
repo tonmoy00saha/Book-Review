@@ -1,19 +1,13 @@
-div li .active{
-    color: #23BE0A;
- 
-    border: 1px solid #23BE0A;
-    padding: 8px 20px;
- 
-    font-weight: 600;
-    border-radius: 8px;
+.btn-nav {
+    border: 2px solid white;
+    background-color: white;
+    color: #131313CC;
+    padding: 14px 28px;
+    font-size: 18px;
 
- 
-}
-.menu-container li{
-    padding: 8px 8px;
-}
-.menu-container li:hover{
-    
-    background-color: rgb(228 228 231);
-    border-radius: 8px;
+  }
+.active{
+    border-color: #23BE0A;
+    color: #23BE0A;
+
 }

@@ -4,9 +4,9 @@ import './Header.css'
 const Header = () => {
     const Links =
     <>
-    <li><NavLink to="/">Home</NavLink></li>
-    <li><NavLink to="/listedbook">Listed Books</NavLink></li>
-    <li><NavLink to="/pagestoread">Pages to Read</NavLink></li>
+    <li><button className="btn-nav"><NavLink to="/">Home</NavLink></button></li>
+    <li><button className="btn-nav"><NavLink to="/listedbook">Listed Books</NavLink></button></li>
+    <li><button className="btn-nav"><NavLink to="/pagestoread">Pages to Read</NavLink></button></li>
     </>
     return (
         <div className="navbar bg-base-100 worksans">
@@ -35,7 +35,7 @@ const Header = () => {
           <a className=" text-3xl font-bold">Book Vibe</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="flex text-lg text-[#131313CC] menu-container ">
+          <ul className="flex  ">
           {Links}
           </ul>
         </div>

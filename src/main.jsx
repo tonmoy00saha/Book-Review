@@ -9,14 +9,21 @@ import {
 import Root from './Components/Root/Root.jsx';
 
 import Home from './Components/Home/Home.jsx';
+import ListedBooks from './Components/ListedBooks/ListedBooks.jsx';
+import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/listedbook",
+        element: <ListedBooks></ListedBooks>
       }
     ],
   },
