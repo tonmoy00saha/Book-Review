@@ -14,6 +14,7 @@ import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 import BookDetails from './Components/BookDetails/BookDetails.jsx';
 import Read from './Components/Read/Read.jsx';
 import WishList from './Components/WishList/WishList.jsx';
+import PagesToRead from './Components/PagesToRead/PagesToRead.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,6 +40,12 @@ const router = createBrowserRouter([
             loader: ()=>fetch('../public/BooksInfo.json'),
           }
         ]
+      },
+      {
+        path: '/pagestoread',
+        element: <PagesToRead></PagesToRead>,
+        loader: ()=>fetch('../public/BooksInfo.json'),
+
       },
       {
         path: "/book/:bookId",

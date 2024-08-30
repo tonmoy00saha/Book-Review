@@ -32,7 +32,7 @@ const Header = () => {
               {Links}
             </ul>
           </div>
-          <a className=" text-3xl font-bold">Book Vibe</a>
+          <a className="text-xl md:text-3xl font-medium md:font-bold">Book Vibe</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex  ">
@@ -40,7 +40,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-         <div className="flex gap-4 ">
+         <div className="flex gap-2 md:gap-4 ">
          <a className="btn bg-primary text-white">Sign in</a>
          <a className="btn bg-[#59C6D2] text-white">Sign up</a>
          </div>
