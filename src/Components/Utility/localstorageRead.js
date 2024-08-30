@@ -1,16 +1,16 @@
 
 
-const getRead = () =>{
+const getRead = () => {
     const readBook = localStorage.getItem('read');
-    if(readBook)
+    if (readBook)
         return JSON.parse(readBook);
     return [];
 }
-const saveReadBook =  (id) =>{
+const saveReadBook = (id) => {
     const read = getRead();
-  
-        read.push(id);
-        localStorage.setItem('read', JSON.stringify(read));
-    
+
+    read.push(id);
+    localStorage.setItem('read', JSON.stringify(read));
+
 }
-export {getRead, saveReadBook};
+export { getRead, saveReadBook };

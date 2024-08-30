@@ -19,8 +19,8 @@ const ListedBooks = () => {
                 </div>
             </div>
             <div className="font-semibold text-lg flex gap-6">
-                <button><NavLink to="/listedbook/read">Read</NavLink></button>
-                <button><NavLink to="/listedbook/wishlist">WishList</NavLink></button>
+                <button><NavLink to="/listedbook/read">Reads Book</NavLink></button>
+                <button><NavLink to="/listedbook/wishlist">WishLists Book</NavLink></button>
             </div>
             <hr className="my-4"/>
             <Outlet></Outlet>

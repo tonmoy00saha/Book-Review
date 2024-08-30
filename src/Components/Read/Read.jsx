@@ -8,7 +8,7 @@ const Read = () => {
     const [reads, setReads]= useState([]);
     useEffect(()=>{
         const getReadBook = getRead();
-        console.log(getReadBook.length);
+        // console.log(getReadBook.length);
         if(readBook.length)
         {
             const readBookData= [];
