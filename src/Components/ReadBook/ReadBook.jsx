@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import BookdetailsTag from "../BookdetailsTag/BookdetailsTag";
 import { CiLocationOn } from "react-icons/ci";
 import { IoPeopleOutline } from "react-icons/io5";
@@ -60,5 +62,7 @@ const ReadBook = ({ read }) => {
         </div>
     );
 };
-
+ReadBook.propTypes={
+    read: PropTypes.object,
+}
 export default ReadBook;

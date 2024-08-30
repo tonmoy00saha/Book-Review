@@ -8,6 +8,6 @@ const Tag = ({tag}) => {
     );
 };
 Tag.prototype={
-    tag: PropTypes.array,
+    tag: PropTypes.string,
 }
 export default Tag;

@@ -1,5 +1,5 @@
 import { IoIosArrowDown } from "react-icons/io";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const ListedBooks = () => { 
   
@@ -19,8 +19,8 @@ const ListedBooks = () => {
                 </div>
             </div>
             <div className="font-semibold text-lg flex gap-6">
-                <button><NavLink to="/listedbook/read">Reads Book</NavLink></button>
-                <button><NavLink to="/listedbook/wishlist">WishLists Book</NavLink></button>
+                <button><Link to="/listedbook/read">Reads Book</Link></button>
+                <button><Link to="/listedbook/wishlist">WishLists Book</Link></button>
             </div>
             <hr className="my-4"/>
             <Outlet></Outlet>
